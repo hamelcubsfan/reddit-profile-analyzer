@@ -1,0 +1,7 @@
+import os
+
+try:
+    import openai
+except ImportError:
+    os.system('pip install openai')
+    import openai
